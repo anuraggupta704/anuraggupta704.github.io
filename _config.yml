@@ -1,17 +1,17 @@
-title: U Meenu Krishnan # The title of the blog
-author: U Meenu Krishnan # Your name 
-email: meenukris130993@gmail.com # your email shown in the footer
+title: Anurag Gupta # The title of the blog
+author: Anurag Gupta # Your name
+email: anuraggupta3512704@gmail.com # your email shown in the footer
 
-url: "https://umeenukrishnan.github.io" # this is your site's root address.
+url: "https://anuraggupta704.github.io" # this is your site's root address.
 
 
 
-description: > # this means to ignore newlines until "show_excerpts:" 
+description: > # this means to ignore newlines until "show_excerpts:"
   Researcher, Indian Institute of Technology Roorkee
-favicon: "./favicon.ico" # set the favicon of the site 
+favicon: "./favicon.ico" # set the favicon of the site
 
 show_excerpts: false # set to true to show excerpts on the homepage
-  
+
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
@@ -27,26 +27,26 @@ moving:
     scholar: hjyZvdgAAAAJ
     researchgate: Meenu_Krishnan
     # rss: RSS
-    # dribbble: 
+    # dribbble:
     # facebook: huangyz0918
-    # flickr:   
-    # instagram: 
+    # flickr:
+    # instagram:
     # linkedin: yizheng-huang
-    # pinterest: 
+    # pinterest:
     # youtube: UCpj8oznjjLwVe5KHOGNrvnQ
-    # youtube_channel: 
-    # youtube_channel_name: 
-    # telegram: 
-    # googleplus: 
-    # microdotblog: 
-    # reddit: 
+    # youtube_channel:
+    # youtube_channel_name:
+    # telegram:
+    # googleplus:
+    # microdotblog:
+    # reddit:
 
     # Mastodon instances
     # mastodon:
-    # - username: 
-    #   instance: 
-    # - username: 
-    #   instance: 
+    # - username:
+    #   instance:
+    # - username:
+    #   instance:
 
 # Build settings
 remote_theme: iitrabhi/moving
