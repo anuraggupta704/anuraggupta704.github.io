@@ -1,3 +1,9 @@
+layout: post
+title: "obtaine"
+categories: misc
+tag: 
+  - misc
+
 Obtaining volume, centre of gravity and inertia matrix from STL file
 
 In order to get the details about the volume, centre of gravity and inertia matrix from the STL file of the geometry, we use the `numpy-stl` python library. It is an efficient and simple library to make work with STL files. The installation of this library is done using command:
