@@ -14,26 +14,25 @@ In a numerical analysis with a vector involvement, norms are essential to predic
 4. $||A+B|| \leq||A||+||B||$
 5. $||AB|| \leq||A|| \quad||B||$
 
-## Types of norm:
+3. ## Types of norm:
 
-1. 1- Norm or column norm:
-
-    This norm is a maximum absolute sum of column and is defined as:
-
-   ∥A∥1=max1≤j≤n(∑i=1n|aij|)‖A‖1=max1≤j≤n(∑i=1n|aij|)
-
-2. Infinity norm: 
-
-   This norm is a maximum absolute sum of row and is defined as:
-
-   ∥A∥∞=max1≤i≤n(∑j=1n|aij|)‖A‖∞=max1≤i≤n(∑j=1n|aij|)
-
-3. 2- Norm or Eucledian norm: 
-
-   This norm is computed by taking square root of sum of squares of all the entities and it is defined as:
-
-   ∥A∥E=∑i=1n∑j=1n(aij)2−−−−−−−−−−⎷‖A‖E=∑i=1n∑j=1n(aij)2
-
+   1. **1- Norm or column norm:** This norm is a maximum absolute sum of column and is defined as:
+      $$
+      \|A\|_{1}=\max _{1 \leq j \leq n}\left(\sum_{i=1}^{n}\left|a_{i j}\right|\right)
+      $$
+   
+   2. **Infinity norm:** This norm is a maximum absolute sum of row and is defined as:
+      $$
+      \|A\|_{\infty}=\max _{1 \leq i \leq n}\left(\sum_{j=1}^{n}\left|a_{i j}\right|\right)
+      $$
+   
+   3. **2- Norm or Eucledian norm:** This norm is computed by taking square root of sum of squares of all the entities and it is defined as:
+      $$
+      \|A\|_{E}=\sqrt{\sum_{i=1}^{n} \sum_{j=1}^{n}\left(a_{i j}\right)^{2}}
+      $$
+   
+   
+   
    > Consider a matrix A and its various norms are computed as:
    >
    > A=⎡⎣⎢5−11−43−2220⎤⎦⎥A=[5−42−1321−20]
@@ -43,7 +42,7 @@ In a numerical analysis with a vector involvement, norms are essential to predic
    > ∥A∥∞=max(5+4+2,1+3+2,1+2+0)=max(11,6,3)=11‖A‖∞=max(5+4+2,1+3+2,1+2+0)=max(11,6,3)=11
    >
    > ∥A∥E=25+16+4+1+4+9+4+1+0−−−−−−−−−−−−−−−−−−−−−−−−−−−√=64−−√=8‖A‖E=25+16+4+1+4+9+4+1+0=64=8
-
+   
    ## **Condition number:**
 
  In the numerical analysis, the condition number of a matrix is very important since it represents how much change reflects in the output with a minor change in the input. If a condition number of a matrix is small, it is **well conditioned** problem and that can be handled efficiently and accurately while if the condition number is large, the problem is **ill-conditioned** and cannot be handled accurately. In that case, some preconditioners can be used. For a singular matrix, condition number is infinite since its determinant is zero and inverse is not possible. The condition number of an invertible matrix A is defined as:
