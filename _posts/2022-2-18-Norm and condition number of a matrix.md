@@ -8,19 +8,17 @@ tag:
 
 In a numerical analysis with a vector involvement, norms are essential to predict the various errors involved in the numerical analysis. A norm is a function ||.|| in a vector space V. If A is a n*n matrix, then its norm is a real number and denoted by ||A||. A norm satisfies the following properties:
 
-1. ||A||≥0||A||≥0 for any square matrix AA
-2. ||A||=0||A||=0; for null matrix
-3. ||kA||=|k|||A||||kA||=|k|||A||; kk is any scalar
-4. ||A+B||≤||A||+||B||||A+B||≤||A||+||B||
-5. ||AB||≤||A||||B||||AB||≤||A||||B||
+1. $||A|| \geq 0$ for any square matrix $A$
+2. $||A||=0$; for null matrix
+3. $||kA||=|k| ||A||$; $k$ is any scalar
+4. $||A+B|| \leq||A||+||B||$
+5. $||AB|| \leq||A|| \quad||B||$
 
 ## Types of norm:
 
 1. 1- Norm or column norm:
 
-    
-
-   This norm is a maximum absolute sum of column and is defined as:
+    This norm is a maximum absolute sum of column and is defined as:
 
    ∥A∥1=max1≤j≤n(∑i=1n|aij|)‖A‖1=max1≤j≤n(∑i=1n|aij|)
 
