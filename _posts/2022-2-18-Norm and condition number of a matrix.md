@@ -93,3 +93,14 @@ In a numerical analysis with a vector involvement, norms are essential to predic
    > $$
 
    The convergence of an iterative process depends on the condition number of a matrix.  If the square matrix of the linear algebraic equation $A x=b$ is singular, then this system does not have a solution. On the other hand, when the matrix is non-singular, it is the condition number of a matrix that decides about the convergence of the approximate solution obtained in the iteration process.
+
+```
+$$
+					
+				
+				
+				xxxxxxxxxx \kappa(A)=||A|| \quad\left||A^{-1}\right||
+				$$
+
+```
+
