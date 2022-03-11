@@ -8,7 +8,7 @@ tag:
 
 
 
-In a numerical analysis with a vector involvement, norms are essential to predict the various errors involved in the numerical analysis. A norm is a function ||.|| in a vector space V. If A is a n*n matrix, then its norm is a real number and denoted by ||A||. A norm satisfies the following properties:
+In a numerical analysis with a vector involvement, norms are essential to predict the various errors involved in the numerical analysis. A norm is a function  in a vector space V. If A is a n*n matrix, then its norm is a real number and denoted by ||A||. A norm satisfies the following properties:
 
 1. $||A|| \geq 0$ for any square matrix $A$
 2. $||A||=0$; for null matrix
