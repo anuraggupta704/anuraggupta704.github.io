@@ -6,8 +6,8 @@ tag:
   - misc
 ---
 
-**A)** **Checkerboard Pattern:
-**a) Checkerboarding refers to the formation of alternate solid and void elements in the final topologically optimized structure and possesses artificial high stiffness to the numerical model.
+**A)** **Checkerboard Pattern**:
+a) Checkerboarding refers to the formation of alternate solid and void elements in the final topologically optimized structure and possesses artificial high stiffness to the numerical model.
 
 b) This issue is primarily due to the discretization error of the numerical FE model.
 
@@ -20,8 +20,8 @@ a) Mesh dependency means that we will get different optimized designs for the sa
 
 b) This issue can be avoided by using perimeter constraints or mesh independent filtering.
 
-**C) Local minima:
-**a) The problems of the topology optimization are generally non-convex, meaning there are so many local minima exists for that problem.
+**C) Local minima**:
+a) The problems of the topology optimization are generally non-convex, meaning there are so many local minima exists for that problem.
 
 b) It refers to the problem of getting different optimized results for the same level of discretized design domain when choosing different parameters of the optimization algorithm.
 
