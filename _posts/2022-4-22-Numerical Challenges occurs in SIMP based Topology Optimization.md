@@ -6,7 +6,7 @@ tag:
   - misc
 ---
 
-**A)** **Checkerboard Pattern**:
+**A)Checkerboard Pattern**:
 a) Checkerboarding refers to the formation of alternate solid and void elements in the final topologically optimized structure and possesses artificial high stiffness to the numerical model.
 
 b) This issue is primarily due to the discretization error of the numerical FE model.
