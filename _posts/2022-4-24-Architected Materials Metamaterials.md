@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Architected Materials Metamaterials"
+title: "Architected Materials: Metamaterials"
 categories: misc
 tag: 
   - misc
@@ -39,14 +39,14 @@ In a broad sense, there are generally the following types of metamaterials:
    
 
 4. Auxetic metamaterials are used in various areas like-
-   a) Sports industry
-   b) Medical industry
-   c) Sensors and actuators
-   d) Textiles
-   e) Defence
-   f) Aerospace sector
-   g) Protective devices
-   h) Auxetic nails
+   a)  Sports industry
+   b)  Medical industry
+   c)  Sensors and actuators
+   d)  Textiles
+   e)  Defence
+   f)  Aerospace sector
+   g)  Protective devices
+   h)  Auxetic nails
 
    The general classification of auxetic metamaterials is given as:
    ![img](https://computationalmechanics.in/wp-content/uploads/2022/04/Auxetics-300x186.png)
